@@ -14,6 +14,6 @@ class HelloRouterTest {
         webTestClient.get().uri("/hello")
                 .accept(MediaType.TEXT_PLAIN)
                 .exchange()
-                .expectBody(String.class).isEqualTo("Hello World");
+                .expectBody(String.class).isEqualTo("Hello Leipzig");
     }
 }

@@ -14,7 +14,7 @@ public class HelloRouter {
         return ServerResponse
                 .ok()
                 .contentType(MediaType.TEXT_PLAIN)
-                .body(BodyInserters.fromValue("Hello World"));
+                .body(BodyInserters.fromValue("Hello Leipzig"));
     }
 
     @Bean
